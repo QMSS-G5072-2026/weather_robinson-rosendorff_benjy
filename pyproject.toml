@@ -1,0 +1,38 @@
+[project]
+name = "weather_br2844"
+version = "0.1.0"
+description = "A package for doing great things!"
+readme = "README.md"
+authors = [{ name = "Benjy Robinson-Rosendorff", email = "br2844@columbia.edu" }]
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "pytest>=9.2.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0",
+    "pytest-cov>=7.1",
+]
+docs = [
+    "myst-nb>=1.4",
+    "sphinx>=9.0",
+    "sphinx-autoapi>=3.8",
+    "sphinx-rtd-theme>=3.1",
+]
+
+[tool.uv]
+default-groups = ["dev", "docs"]
+
+[[tool.uv.index]]
+name = "testpypi"
+url = "https://test.pypi.org/simple/"
+publish-url = "https://test.pypi.org/legacy/"
+explicit = true
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14"]
+build-backend = "uv_build"
