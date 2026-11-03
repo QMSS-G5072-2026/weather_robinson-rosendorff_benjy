@@ -1,5 +1,7 @@
 # weather_br2844
 
+[![ci](https://github.com/QMSS-G5072-2026/weather_robinson-rosendorff_benjy/actions/workflows/ci.yml/badge.svg)](https://github.com/QMSS-G5072-2026/weather_robinson-rosendorff_benjy/actions/workflows/ci.yml)
+
 A package for doing great things!
 
 ## Installation

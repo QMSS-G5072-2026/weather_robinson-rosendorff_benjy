@@ -1,6 +1,6 @@
 [project]
 name = "weather_br2844"
-version = "0.1.0"
+version = "0.1.1"
 description = "A package for doing great things!"
 readme = "README.md"
 authors = [{ name = "Benjy Robinson-Rosendorff", email = "br2844@columbia.edu" }]
